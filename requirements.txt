@@ -1,0 +1,10 @@
+# Recommended runtime used for Kaggle/PyTorch 2.x experiments.
+# Exact CUDA wheel selection depends on the machine/GPU.
+torch>=2.0
+torchaudio>=2.0
+transformers>=4.40
+safetensors>=0.4
+einops>=0.7
+soundfile>=0.12
+tqdm>=4.66
+numpy>=1.24

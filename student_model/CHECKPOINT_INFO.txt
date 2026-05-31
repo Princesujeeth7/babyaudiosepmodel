@@ -1,0 +1,40 @@
+Final selected checkpoint
+=========================
+
+Weights-only model:
+final_student_phase8_weights_only.pt
+
+Full training checkpoint:
+final_student_phase8_mask_distill.pt
+
+Architecture:
+RopeReplacementUNet v1
+
+Trainable student parameters:
+5,762,304
+
+Hidden size:
+384
+
+Stem order:
+0 = bass
+1 = drums
+2 = other
+3 = vocal
+
+Final evaluation method:
+MUSDB18-HQ test set
+8-second chunks
+50% overlap-add inference
+mixture-consistency post-processing
+
+Final SDR:
+bass  = 3.760 dB
+drums = 5.778 dB
+other = 3.314 dB
+vocal = 5.055 dB
+mean  = 4.477 dB
+
+Notes:
+The weights-only checkpoint is preferred for submission/deployment discussion.
+The full checkpoint includes optimizer state and is kept for reproducibility.
