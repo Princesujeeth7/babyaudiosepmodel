@@ -429,6 +429,3 @@ The student does not use the teacher RoPE Transformer as its deployment target; 
 
 Teacher compatibility changes are documented in `CHANGES.md`.
 
-## Future Work
-
-The final student is lightweight and follows the RoPE-replacement proposal, but the SDR gap to the teacher remains large. The strongest next research direction is to make the deployment model predict masks/spectrograms directly with a lightweight learned front-end and mask head instead of reusing the teacher back-end.
