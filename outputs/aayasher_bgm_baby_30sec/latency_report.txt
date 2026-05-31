@@ -1,0 +1,15 @@
+Baby Audio Separation Demo
+==========================
+source audio: C:\Users\DELL\OneDrive\Desktop\samsungproject\aayasher_bgm.mp3
+device: cpu
+sample_rate: 44100
+audio_duration_seconds: 30.000
+total_inference_seconds: 5.843
+real_time_factor: 0.195x
+speed: 5.135 audio_seconds_per_wall_second
+
+Output stems:
+bass.wav
+drums.wav
+other.wav
+vocal.wav
