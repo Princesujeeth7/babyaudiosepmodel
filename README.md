@@ -246,16 +246,6 @@ pip install -r requirements.txt
 
 The code was tested primarily on Kaggle GPU notebooks.
 
-## GitHub Upload
-
-Read this before pushing to GitHub:
-
-```text
-GITHUB_UPLOAD_NOTES.md
-```
-
-The folder is better for GitHub than the zip because GitHub has a 100 MB per-file limit for normal uploads. The included `.gitattributes` marks model files for Git LFS.
-
 ## Dataset Format
 
 The training/evaluation scripts expect MUSDB-style folders:
@@ -429,6 +419,4 @@ The student does not use the teacher RoPE Transformer as its deployment target; 
 
 Teacher compatibility changes are documented in `CHANGES.md`.
 
-## Future Work
 
-The final student is lightweight and follows the RoPE-replacement proposal, but the SDR gap to the teacher remains large. The strongest next research direction is to make the deployment model predict masks/spectrograms directly with a lightweight learned front-end and mask head instead of reusing the teacher back-end.
