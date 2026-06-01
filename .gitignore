@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.hf_modules/
+outputs/baby_demo_30sec/
+*.tmp
+*.log
