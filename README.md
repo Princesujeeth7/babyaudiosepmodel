@@ -245,15 +245,6 @@ pip install -r requirements.txt
 
 The code was tested primarily on Kaggle GPU notebooks.
 
-## GitHub Upload
-
-Read this before pushing to GitHub:
-
-```text
-GITHUB_UPLOAD_NOTES.md
-```
-
-The folder is better for GitHub than the zip because GitHub has a 100 MB per-file limit for normal uploads. The included `.gitattributes` marks model files for Git LFS.
 
 ## Dataset Format
 
