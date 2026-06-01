@@ -1,6 +1,5 @@
 # Lightweight BS-RoFormer RoPE-Replacement Student
 
-This repository contains the final office-submission package for a lightweight music source-separation prototype.
 
 The main idea is to keep the BS-RoFormer teacher pipeline as a reference and replace its heavy RoPE Transformer stack with a small CNN/U-Net student block.
 
